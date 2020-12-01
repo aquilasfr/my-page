@@ -33,8 +33,13 @@ a {
 
 .header_presentation {
   background-color: #00cdc4;
-  padding: 150px;
   text-align: center;
+}
+
+@media screen and (min-width: 760px) {
+  .header_presentation {
+    padding: 150px;
+  }
 }
 
 .subtitle {
@@ -48,16 +53,24 @@ header {
 }
 
 .menu {
-  background-color: #017974;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  display: flex;
-  padding: 10px 0;
-  width: 100%;
-  justify-content: center;
+  flex-wrap: wrap;
 }
+
+@media screen and (min-width:760px){
+.menu {
+flex-wrap: nowrap;  
+display: flex;
+background-color: #017974;
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+padding: 10px 0;
+width: 100%;
+justify-content: center;
+}
+}
+  
 
 header nav ul li a {
   color: #fff;
@@ -76,7 +89,13 @@ nav a:hover {
 }
 
 .container {
-  padding: 150px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 760px){
+  .container {
+    padding: 150px;
+  }
 }
 
 .summary_experience {
@@ -102,19 +121,28 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   padding: 30px;
+  flex-wrap: wrap;
 }
 
 .skills_wrapper > img {
-  height: 120px;
-  opacity: 0.9;
+   opacity: 0.9;
+   width: 50%;
+}
+
+@media screen and (min-width:760px){
+  .skills_wrapper{
+    flex-wrap: nowrap;
+    
+  }
+  .skills_wrapper > img {
+   height: 120px;
+   width: auto;
+  }      
+
 }
 
 .skills_wrapper > img:hover {
   opacity: 1;
-}
-
-.container_experience {
-  margin: 0 100px 20px 100px;
 }
 
 .experience_work {
@@ -136,7 +164,16 @@ nav a:hover {
   text-align: center;
   background-color: tomato;
   font-weight: bold;
+ 
+}
+
+@media screen and (min-width:760px) {
+.contact {
+  text-align: center;
+  background-color: tomato;
+  font-weight: bold;
   padding: 100px;
+}
 }
 
 .icon_contact {
