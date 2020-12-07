@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-  font-size: 52px;
+  font-size: 48px;
 }
 
 h3 {
@@ -32,11 +32,20 @@ a {
 }
 
 .header_presentation {
+  padding: 30px;
   background-color: #00cdc4;
   text-align: center;
+  
+  }
+
+@media screeen and (min-width:760px){
+  .header_presentation {
+  background-color: #00cdc4;
+  text-align: center;
+  }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width:760px) {
   .header_presentation {
     padding: 150px;
   }
@@ -45,6 +54,13 @@ a {
 .subtitle {
   font-weight: 500;
   padding: 10px;
+}
+
+@media screen and (min-width:760px) {
+  .subtitle {
+    font-weight: 500;
+  }
+
 }
 
 header {
@@ -57,18 +73,18 @@ header {
 }
 
 @media screen and (min-width:760px){
-.menu {
-flex-wrap: nowrap;  
-display: flex;
-background-color: #017974;
-position: absolute;
-bottom: 0;
-right: 0;
-left: 0;
-padding: 10px 0;
-width: 100%;
-justify-content: center;
-}
+  .menu {
+    flex-wrap: nowrap;  
+    display: flex;
+    background-color: #017974;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 0;
+    width: 100%;
+    justify-content: center;
+  }
 }
   
 
