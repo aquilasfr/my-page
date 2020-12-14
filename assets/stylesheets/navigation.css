@@ -1,5 +1,5 @@
 
-@media screen and (min-width:760px){
+ @media screen and (min-width:760px){
     .navigation__list {
       flex-wrap: nowrap;  
       display: flex;
@@ -12,8 +12,8 @@
       justify-content: center;
     }
   }
-
-   .navigation__list__item {
+ 
+  .navigation__list__item {
     margin: 8px 10px;
    }
   

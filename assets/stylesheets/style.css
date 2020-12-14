@@ -35,7 +35,7 @@ a {
   padding: 112px 0;
   background-color: #00cdc4;
   text-align: center;
-  height: 479px;  
+  height: 443px;  
   }
 
   @media screen and (min-width:760px) {
@@ -90,7 +90,7 @@ a {
 .skills_title {
   color: white;
   margin-bottom: 40px;
-  padding: 15px;
+  padding: 48px;
 }
 
 .skills_wrapper {
