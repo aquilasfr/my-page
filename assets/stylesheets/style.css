@@ -39,15 +39,6 @@ a {
   
   }
 
-@media screeen and (min-width:760px) {
-  .header_presentation {
-  background-color: #00cdc4;
-  text-align: center;
-  width: 100%;
-  padding: 13px;
-  }
-}
-
 .subtitle {
   font-weight: 500;
   padding: 10px;
@@ -60,10 +51,6 @@ a {
 
 }
 
-header {
-  position: relative;
-  padding: 5px 0 0;
-}
 
 .title_summary {
   font-weight: bold;
