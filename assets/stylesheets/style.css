@@ -32,11 +32,17 @@ a {
 }
 
 .header_presentation {
-  padding: 110px 0;
+  padding: 112px 0;
   background-color: #00cdc4;
   text-align: center;
-  height: 447px;
-  
+  height: 479px;  
+  }
+
+  @media screen and (min-width:760px) {
+
+    .header_presentation {
+      height: 372px;
+    }
   }
 
 .subtitle {
