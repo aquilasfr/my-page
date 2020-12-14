@@ -13,10 +13,6 @@
       justify-content: center;
     }
   }
- 
-  .navigation__list {
-    padding: 2px;
-  }
 
    .navigation__list__item {
     margin: 8px 10px;
