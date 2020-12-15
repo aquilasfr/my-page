@@ -32,21 +32,16 @@ a {
 }
 
 .header_presentation {
-  padding: 112px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: #00cdc4;
+  position: relative;
   text-align: center;
-  height: 443px;  
+  height: 100vh;
+  
   }
-
-  @media screen and (min-width:760px) {
-
-    .header_presentation {
-      height: 372px;
-    }
-  }
-
-.subtitle {
-  font-weight: 500;
+t: 500;
   padding: 10px;
 }
 
@@ -60,12 +55,20 @@ a {
 
 .title_summary {
   font-weight: bold;
+  padding: 10px;
 }
 
 .container {
   padding: 13px;
  
 }
+
+@media screen and (min-width::760px) {
+ .contatiner {
+   max-width: 90%;
+ }
+}
+ 
 
 .summary_experience {
   font-size: 30px;
@@ -78,19 +81,20 @@ a {
   background-color: teal;
   font-weight: bold;
   text-align: center;
-  height: 643px;
+  
 }
 
 .skills_title {
   color: white;
   margin-bottom: 40px;
-  padding: 48px;
+  padding: 10px;
 }
 
 .skills_wrapper {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 .skills_wrapper > img {
@@ -153,7 +157,7 @@ a {
 
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.754);
+  background-color: black;
   color: white;
   text-align: center;
   padding: 20px;
