@@ -13,21 +13,21 @@ h6 {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 54px;
 }
 
 h2 {
-  font-size: 41px;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 48px;
+  font-size: 42px;
 }
 
 p,
 span,
 a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -41,9 +41,6 @@ a {
   height: 100vh;
   
   }
-t: 500;
-  padding: 10px;
-}
 
 @media screen and (min-width:760px) {
   .subtitle {
@@ -52,26 +49,22 @@ t: 500;
 
 }
 
-
-.title_summary {
-  font-weight: bold;
-  padding: 10px;
-}
-
 .container {
   padding: 13px;
  
 }
 
-@media screen and (min-width::760px) {
- .contatiner {
+@media screen and (min-width:760px) {
+ .container {
+   padding: 40px 0;
+   max-width: 1280px;
    max-width: 90%;
+   margin: 0 auto;
  }
 }
  
 
 .summary_experience {
-  font-size: 30px;
   line-height: 40px;
   margin: 40px 0;
   text-align: left;
