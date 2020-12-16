@@ -49,21 +49,17 @@ a {
 
 }
 
-
-.title_summary {
-  padding: 10px;
-}
-
 .container {
-  padding: 40px 0;
-  max-width: 1280px;
-  width: 90%;
-  margin: 0 auto;
- }
+  padding: 13px;
+ 
+}
 
 @media screen and (min-width:760px) {
  .container {
+   padding: 40px 0;
+   max-width: 1280px;
    max-width: 90%;
+   margin: 0 auto;
  }
 }
  
