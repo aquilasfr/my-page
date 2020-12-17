@@ -140,7 +140,17 @@ a {
   color: #dfe6e9;
   padding: 2rem 0 4rem 0;
   text-align: center;
+}
 
+.contact__subtitle {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.contact__subtitle__link {
+  text-decoration: none;
+  color: #0984e3;
 }
 
 .contact__list {
