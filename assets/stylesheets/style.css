@@ -38,7 +38,7 @@ a {
   background-color: #00cdc4;
   position: relative;
   text-align: center;
-  height: 100vh;
+  height: 60vh;
   
   }
 
@@ -58,7 +58,7 @@ a {
  .container {
    padding: 40px 0;
    max-width: 1280px;
-   max-width: 90%;
+   width: 90%;
    margin: 0 auto;
  }
 }
