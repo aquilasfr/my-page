@@ -155,12 +155,21 @@ a {
 
 .contact__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  
+ }
+
+@media screen and (min-width:760px) {
+.contact__list {
+  display: flex;
+  justify-content: space-evenly;
+  
+ }
 }
 
 .footer {
-  background-color: black;
-  color: white;
+  padding: 1.5rem;
+  background-color: #16191a;
+  color: #dfe6e9;
   text-align: center;
-  padding: 20px;
 }
