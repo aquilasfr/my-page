@@ -85,47 +85,12 @@ a {
   
 }
 
-.skills_title {
-  color: white;
-  margin-bottom: 40px;
-  padding: 10px;
-}
-
-.skills_wrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.skills_wrapper > img {
-   opacity: 0.9;
-   width: calc(50% - 20px);
-   padding: 10px;
-}
-
-@media screen and (min-width:760px){
-  .skills_wrapper{
-    flex-wrap: nowrap;
-    
-  }
-  .skills_wrapper > img {
-   height: 120px;
-   width: auto;
-  }      
-
-}
-
-.skills_wrapper > img:hover {
-  opacity: 1;
-}
-
-.experience_work {
+.experience {
   text-align: center;
   margin-top: 20px;
 }
 
-.summary_work {
+.experience__summary-work {
   text-align: center;
   margin-top: 5px;
 }

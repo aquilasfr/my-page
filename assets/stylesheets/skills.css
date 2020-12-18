@@ -1,0 +1,34 @@
+.skills__title {
+    color: white;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  
+  .skills__title__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .skills__title__wrapper > img {
+     opacity: 0.9;
+     width: calc(50% - 20px);
+     padding: 10px;
+  }
+  
+  @media screen and (min-width:760px){
+    .skills__title__wrapper{
+      flex-wrap: nowrap;
+      
+    }
+    .skills__title__wrapper > img {
+     height: 120px;
+     width: auto;
+    }      
+  
+  }
+  
+  .skills__title__wrapper > img:hover {
+    opacity: 1;
+  }
