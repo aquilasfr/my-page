@@ -1,0 +1,35 @@
+#contact {
+    background-color: #2d3436;
+    color: #dfe6e9;
+    padding: 32px 0 64px 0;
+    text-align: center;
+  }
+  
+  .contact__subtitle {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  
+  .contact__subtitle__link {
+    text-decoration: none;
+    color: #0984e3;
+  }
+  
+  .contact__list {
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+  
+  @media screen and (min-width:760px) {
+  .contact__list {
+    display: flex;
+    justify-content: center;
+    
+   }
+  }
+  
+  .contact__list__item {
+    margin: 0 20px ;
+  }
