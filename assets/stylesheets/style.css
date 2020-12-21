@@ -70,35 +70,6 @@ a {
    margin: 0 auto;
  }
 }
- 
-
-.title__summary__experience {
-  line-height: 40px;
-  margin: 40px 0;
-  text-align: left;
-}
-
-.skills {
-  background-color: teal;
-  font-weight: bold;
-  text-align: center;
-  
-}
-
-.experience {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.experience__summary-work {
-  text-align: center;
-  margin-top: 5px;
-}
-
-.experience__summary-work__image {
-  height: 130px;
-  padding: 20px 0;
-}
 
 #contact {
   background-color: #2d3436;
