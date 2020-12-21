@@ -1,13 +1,12 @@
 
 .experience__title {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
   }
   
   .experience__title__resume {
-    line-height: 40px;
-    margin: 10px 0;
     text-align: center;
+    margin-top: 5px;
   }
   
   .experience__title__resume__image {
