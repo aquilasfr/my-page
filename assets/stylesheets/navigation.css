@@ -1,6 +1,6 @@
 
  @media screen and (min-width:760px){
-    .navigation__list {
+    .navigation {
       flex-wrap: nowrap;  
       display: flex;
       background-color: #017974;
@@ -12,24 +12,20 @@
       justify-content: center;
     }
   }
- 
-  .navigation__list__item {
-    margin: 8px 10px;
-   }
-  
-   .navigation__list__item__anchor {
+    
+   .navigation__home__anchor {
     color: #fff;
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: none;
   
    }
-   .navigation__list__item__anchor:hover {
+   .navigation__home__anchor:hover {
     color: #c78c19;
     text-decoration: underline;
   }
   
-  .navigation__list__item__anchor--active {
+  .navigation__home__anchor--active {
     font-weight: bold;
   }
   
