@@ -29,9 +29,9 @@
     flex-wrap: nowrap;      
   }
 
-.skills__title__wrapper > img {
-  height: 120px;
-  width: auto;
+  .skills__title__wrapper > img {
+    height: 120px;
+    width: auto;
   }    
 }
   
