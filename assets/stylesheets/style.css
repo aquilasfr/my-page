@@ -43,23 +43,18 @@ a {
 
 @media screen and (min-width:760px) {
   .header_presentation {
-    height: 70vh;  
-
-
+    height: 70vh;
   }
-}
-    
+}   
 
 @media screen and (min-width:760px) {
   .subtitle {
     font-weight: 500;
   }
-
 }
 
 .container {
-  padding: 13px;
- 
+  padding: 13px; 
 }
 
 @media screen and (min-width:760px) {
