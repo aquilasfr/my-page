@@ -12,6 +12,30 @@
     justify-content: center;          
   }
 }
+
+.fa-linkedin {
+  background-color: #0a66c2;
+  color: #fff;
+  padding: 10px;
+}
+
+.fa-html5 {
+  background-color: #f75a10;
+  color: #fff;
+  padding: 10px;  
+}
+
+.fa-css3-alt {
+  background-color: #0a66c2;
+  color: #fff;
+  padding: 10px;
+}
+
+.fa-js-square {
+  background-color: yellow;
+  color: grey;
+  padding: 10px;
+}
     
 .navigation__home__anchor {
   color: #fff;
