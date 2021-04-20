@@ -11,7 +11,7 @@
     margin-bottom: 32px;
   }
   
-  .contact__subtitle__link {
+  /*  */.contact__subtitle__link {
     text-decoration: none;
     color: #0984e3;
   }
